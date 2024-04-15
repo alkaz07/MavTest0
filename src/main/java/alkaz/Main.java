@@ -9,9 +9,10 @@ public class Main {
         int t2 = scanner.nextInt();
         String mode = scanner.next();
         int result = work(t1, t2, mode);
+        System.out.println(result);
     }
 
-    private static int work(int t1, int t2, String mode) {
+    public static int work(int t1, int t2, String mode) {
         if(mode.equals("auto")){
             return t2;
         }
